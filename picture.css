@@ -1,0 +1,245 @@
+.img{
+    animation-duration:2s;
+    animation-fill-mode: forwards;
+    position: absolute;
+}
+
+
+.l1{
+    width: 2.4%;
+    top: -11%;
+    left: 17.5%;
+}
+.l2{
+    width: 4%;
+    top: -19%;
+    left: 32%;
+}
+.l3{
+    width: 3%;
+    top: -6.5%;
+    left: 47%;
+}
+.l4{
+    width: 2.2%;
+    top: -17%;
+    left: 61%;
+}
+.l5{
+    width: 1.6%;
+    top: -6%;
+    left: 75%;
+}
+.p1{
+    z-index: 2;
+    width: 23%;
+    bottom: 0%;
+    left: -20.5%;
+}
+.group{
+    width: 95%;
+    left: 4%;
+    top: 17%;
+}
+.p2{
+    z-index: 3;
+    width: 16.7%;
+    bottom: 0%;
+    left: 98%
+}
+.Hotel {
+    position: absolute;
+    width: 8%;
+    top: 39%;
+    left: 45.5%;
+    z-index: 4;
+}
+
+
+.l1-2{
+    animation-name: l1-move;
+}
+.l2-2{
+    animation-name: l2-move;
+}
+.l3-2{
+    animation-name: l3-move;
+}
+.l4-2{
+    animation-name: l4-move;
+}
+.l5-2{
+    animation-name: l5-move;
+}
+.p1-2{
+    animation-name: p1-move;
+}
+.group-2{
+    animation-name: group-move;
+}
+.p2-2{
+    animation-name: p2-move;
+}
+.Hotel-2{
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+    animation-name: Hotel-move;
+}
+
+
+.l1-3{
+    width: 2.4%;
+    left: 36%;
+    top: -14%;
+}
+.l2-3{
+    width: 4%;
+    top: -19%;
+    left: 42.5%;
+}
+.l3-3{
+    width: 3%;
+    top: -13%;
+    left: 49%;
+}
+.l4-3{
+    width: 2.2%;
+    top: -13.8%;
+    left: 55.5%;
+}
+.l5-3{
+    width: 1.6%;
+    top: -12%;
+    left: 62%;
+}
+.p1-3{
+    z-index: 2;
+    width: 23%;
+    bottom: 0%;
+    left: 5%
+}
+.group-3{
+    width: 54%;
+    top: 38%;
+    left: 24.5%;
+}
+.p2-3{
+    z-index: 3;
+    width: 16.7%;
+    bottom: 0%;
+    left: 79%;
+}
+.Hotel-3{
+    position: absolute;
+    width: 34%;
+    top: 25%;
+    left: 34%;
+    z-index: 4;
+}
+
+
+
+@keyframes l1-move{
+    to{
+        left: 36%;
+        top: -14%;
+    }
+}
+@keyframes l2-move{
+    to{
+        left: 42.5%;
+    }
+}
+@keyframes l3-move{
+    to{
+        top: -13%;
+        left: 49%;
+    }
+}
+@keyframes l4-move{
+    to{
+        top: -13.8%;
+        left: 55.5%;
+    }
+}
+@keyframes l5-move{
+    to{
+        top: -12%;
+        left: 62%;
+    }
+}
+@keyframes p1-move{
+    to{
+        left: 5%
+    }
+}
+@keyframes group-move{
+    to{
+        width: 54%;
+        top: 38%;
+        left: 24.5%;
+    }
+}
+@keyframes p2-move{
+    to{
+        left: 79%;
+    }
+}
+@keyframes Hotel-move{
+    to{
+        width: 34%;
+        top: 25%;
+        left: 34%;
+    }
+}
+
+
+.lamp-fade{
+    animation-duration:1.7s;
+    animation-name: lamp-fade;
+}
+@keyframes lamp-fade{
+    to{
+        top: -40%;
+    }
+}
+.group-fade{
+    animation-name: group-fade;
+}
+@keyframes group-fade{
+    to{
+        opacity: 0;
+    }
+}
+
+
+.p1-next{
+    animation-name: p1-next;
+}
+@keyframes p1-next{
+    to{
+        left: 15.3%;
+    }
+}
+.p2-next{
+    animation-name: p2-next;
+}
+@keyframes p2-next{
+    to{
+        left: 5.3%;
+    }
+}
+.Hotel-next{
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+    animation-name: Hotel-next;
+}
+@keyframes Hotel-next{
+    to{
+        width: 15%;
+        top: 6.8%;
+        left: 42.5%; 
+    }
+}
+
+
